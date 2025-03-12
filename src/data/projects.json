@@ -1,0 +1,35 @@
+[
+    {
+        "title":"project A",
+        "imageSrc":"projects/project.png",
+        "description":"This is a project made made in react ",
+        "skills":["React","Express","Node"],
+        "demo":"https://www.example.com",
+        "source":"https://github.com"
+    },
+    {
+        "title":"project A",
+        "imageSrc":"projects/project.png",
+        "description":"This is a project made made in react ",
+        "skills":["React","Express","Node"],
+        "demo":"https://www.example.com",
+        "source":"https://github.com"
+    },
+    {
+        "title":"project A",
+        "imageSrc":"projects/project.png",
+        "description":"This is a project made made in react ",
+        "skills":["React","Express","Node"],
+        "demo":"https://www.example.com",
+        "source":"https://github.com"
+    },
+    {
+        "title":"project A",
+        "imageSrc":"projects/project.png",
+        "description":"This is a project made made in react ",
+        "skills":["React","Express","Node"],
+        "demo":"https://www.example.com",
+        "source":"https://github.com"
+    }
+
+]
