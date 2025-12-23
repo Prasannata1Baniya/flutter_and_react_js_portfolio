@@ -33,6 +33,7 @@
     display: flex;
     align-items: center;
     gap: 25px;
+    
 }
 .link a{
     color: var(--color-text);
@@ -43,6 +44,11 @@
 
 }
 
+.link img {
+    width: 70px; 
+    height: auto; 
+  }
+  
 @media screen and (max-width:830px){
     .container{
         flex-direction: column;

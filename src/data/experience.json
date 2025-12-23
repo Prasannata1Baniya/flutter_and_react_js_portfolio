@@ -1,0 +1,43 @@
+[
+    {
+        "title":"HTML",
+        "imagesrc":"src/assets/experience/html.png"
+    },
+    {
+        "title":"CSS",
+        "imagesrc":"src/assets/experience/css.png"
+    },
+    {
+        "title":"JavaScript",
+        "imagesrc":"src/assets/experience/javaScript.png"
+    },
+    {
+        "title":"React",
+        "imagesrc":"src/assets/experience/react.png"
+    },
+    {
+        "title":"Node Js",
+        "imagesrc":"src/assets/experience/node-js.png"
+    },
+    {
+        "title":"Flutter",
+        "imagesrc":"src/assets/experience/flutter-logo.png"
+    },
+    {
+        "title":"Dart",
+        "imagesrc":"src/assets/experience/dart.png"
+    },
+    {
+        "title":"Figma",
+        "imagesrc":"src/assets/experience/figma.png"
+    },
+    {
+        "title":"Firebase",
+        "imagesrc":"src/assets/experience/firebase.png"
+    },
+    {
+        "title":"Bloc SMP",
+        "imagesrc":"src/assets/experience/bloc.png"
+    }
+   
+]
