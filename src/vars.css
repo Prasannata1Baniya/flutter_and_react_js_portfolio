@@ -3,6 +3,7 @@
     --color-primary:#576cbc;
     --color-secondary:#19376d;
     --color-dark:#0b2447;
+   /* --color-bg:#000000;*/
     --color-bg:#04152d;
     --font-robot:"Roboto";
 }
@@ -10,4 +11,6 @@
     --color-secondary:rgba(0, 0, 0, 0.842);
     --color-dark:rgba(0, 0, 0, 0.829);
     --color-bg:black;
-    --font-robot:"Roboto";*/
+    --font-robot:"Roboto";
+    --color-bg:#04152d;
+    */

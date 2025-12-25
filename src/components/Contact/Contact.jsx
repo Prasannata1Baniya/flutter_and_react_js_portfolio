@@ -3,7 +3,7 @@ import styles from "./Contact.module.css";
 
 const Contact = () => {
   return (
-    <footer className={styles.container}>
+    <footer className={styles.container} id="contact">
     <div className={styles.text}>
        <h1>Contact</h1>
         <h3>Feel free to reach out!</h3>
@@ -11,11 +11,11 @@ const Contact = () => {
            <ul className={styles.links}>
                <li className={styles.link}>
                 <img src="src/assets/contact/email.png" alt=''/>
-                <a href='mailto:prasannatabaniya250@gmail.com'>email</a>
+                <a href='mailto:bprasannata55@gmail.com'>email</a>
                </li>
                <li className={styles.link}>
                <img src="src/assets/contact/linkedin.png" alt=''/>
-                <a href='https://www.linkedin.com/'>linkedin</a>
+                <a href='https://www.linkedin.com/in/prasannata-baniya-060b792bb'>linkedin</a>
                </li>
                <li className={styles.link}>
                <img src="src/assets/contact/github.png" alt=''/>

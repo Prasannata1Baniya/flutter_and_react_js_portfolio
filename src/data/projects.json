@@ -1,35 +1,35 @@
 [
     {
-        "title":"project A",
-        "imageSrc":"projects/project.png",
-        "description":"This is a project made made in react ",
-        "skills":["React","Express","Node"],
+        "title":"Weather App Or Website",
+        "imageSrc":"src/assets/projects/weather_app.jpg",
+        "description":"This is a project made in flutter using Bloc State Management.",
+        "skills":["Flutter","Bloc","geo-locator","https"],
+        "demo":"weather-app-one-tawny-50.vercel.app",
+        "source":"https://github.com/Prasannata1Baniya/Weather-App"
+    },
+    {
+        "title":"E-Learning App",
+        "imageSrc":"src/assets/projects/E-Learning_app.jpg",
+        "description":"This is a project made in flutter using Bloc State Management.",
+        "skills":["Flutter","Bloc"],
         "demo":"https://www.example.com",
         "source":"https://github.com"
     },
     {
-        "title":"project A",
-        "imageSrc":"projects/project.png",
-        "description":"This is a project made made in react ",
-        "skills":["React","Express","Node"],
-        "demo":"https://www.example.com",
-        "source":"https://github.com"
+        "title":"Grocery App",
+        "imageSrc":"src/assets/projects/grocery_app.jpg",
+        "description":"This is a project made in flutter using Bloc State Management.",
+        "skills":["Flutter","Bloc"],
+        "demo":"https://flutter-grocery-app.vercel.app/",
+        "source":"https://github.com/Prasannata1Baniya/flutter_grocery_app"
     },
     {
-        "title":"project A",
-        "imageSrc":"projects/project.png",
-        "description":"This is a project made made in react ",
-        "skills":["React","Express","Node"],
-        "demo":"https://www.example.com",
-        "source":"https://github.com"
-    },
-    {
-        "title":"project A",
-        "imageSrc":"projects/project.png",
-        "description":"This is a project made made in react ",
-        "skills":["React","Express","Node"],
-        "demo":"https://www.example.com",
-        "source":"https://github.com"
+        "title":"Basic Flutter Projects",
+        "imageSrc":"src/assets/projects/basic_projects.jpg",
+        "description":"This is a project made made in FLutter including various games and local Hive Storage. ",
+        "skills":["Flutter"],
+        "demo":"flutter-projects-iota.vercel.app",
+        "source":"https://github.com/Prasannata1Baniya/flutter_projects"
     }
 
 ]

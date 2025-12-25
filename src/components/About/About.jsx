@@ -65,7 +65,7 @@ const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src="src/assets/about/frontend.jpg" alt="Server icon" />
+            <img src="src/assets/about/backend.png" alt="" />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
@@ -75,7 +75,7 @@ const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src="src/assets/about/frontend.jpg" alt="" />
+            <img src="src/assets/about/UI_UX.jpg" alt="" />
             <div className={styles.aboutItemText}>
               <h3>UI Designer</h3>
               <p>

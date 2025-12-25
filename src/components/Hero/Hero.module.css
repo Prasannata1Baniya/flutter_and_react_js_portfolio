@@ -12,9 +12,6 @@
 }
 
 .content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
 }
@@ -24,19 +21,17 @@
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
 }
 
 .description {
-  font-size: 25px;
+  font-size: 28px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
+}
+.buttons {
+  display: flex;
+  gap: 20px;            
+  align-items: center;
 }
 
 .contactBtn {
@@ -49,6 +44,28 @@
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
+
+.githubBtn {
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--color-text);
+  border-radius: 100px;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 14px 26px;
+  border: 2px solid white;                
+}
+
+.contactBtn:hover {
+  background-color: black;
+  border-color: var(--color-primary);
+}
+
+.githubBtn:hover {
+  background-color: white;
+  color: black;
+}
+
 
 .heroImg {
   width: 350px;      
@@ -80,7 +97,6 @@
   width: 70vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 250px;
   top: 246px;
   right: -25vw;
   border-radius: 764px;
@@ -92,11 +108,25 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    text-align: center;
   }
-
+  
   .content {
+    display: flex;
+    flex-direction: column;
     align-items: center;
   }
+  
+  .description {
+    max-width: 90%;
+  }
+  
+
+  .buttons {
+    justify-content: center;
+  }
+
+  .heroImg {
+    margin-bottom: 30px;
+  }
 }
-
-

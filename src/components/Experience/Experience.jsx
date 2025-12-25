@@ -5,7 +5,7 @@ import styles from "./Experience.module.css"
 const Experience = () => {
   return (
     
-    <section className={styles.container}>
+    <section className={styles.container} id='experience'>
         <h2> Experience</h2>
         <div className={styles.content}>
             <div className={styles.skills}>
