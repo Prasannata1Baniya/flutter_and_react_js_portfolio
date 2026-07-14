@@ -1,12 +1,105 @@
-# React + Vite
+# 🌐 Prasannata Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and interactive personal portfolio built with **React** and **Vite**. This portfolio showcases my projects, technical skills, and contact information in a clean and professional interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+* 🎨 Modern and responsive UI
+* ⚡ Built with React + Vite
+* 📱 Mobile-friendly design
+* 💻 Project showcase section
+* 🛠 Skills & experience section
+* 👨‍💻 About Me section
+* 📬 Contact section
+* 🌙 Smooth animations and modern styling
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+### 🏠 Home
+
+![Home](./screenshots/po1.png)
+
+### 👤 About
+
+![About](./screenshots/po2.png)
+
+### 💼 Skills & Experience
+
+![Experience](./screenshots/po3.png)
+
+### 🚀 Projects
+
+![Projects](./screenshots/po4.png)
+![Projects](./screenshots/po5.png)
+![Projects](./screenshots/po6.png)
+
+
+### 📞 Contact
+
+![Contact](./screenshots/po7.png)
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* React.js
+* Vite
+* JavaScript (ES6+)
+* HTML5
+* CSS3 (CSS Modules)
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+
+---
+
+## 📂 Folder Structure
+
+```text
+src/
+│
+├── assets/
+├── components/
+│   ├── Hero/
+│   ├── About/
+│   ├── Experience/
+│   ├── Projects/
+│   ├── Contact/
+│   └── Navbar/
+│
+├── data/
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 📌 Future Improvements
+
+* Resume download
+* Dark/Light mode
+* Framer Motion animations
+* Blog section
+* Project filtering
+* Improved accessibility
+* Performance optimization
+
+---
+
+## 👤 Author
+
+**Prasannata Baniya**
+
+* GitHub: https://github.com/Prasannata1Baniya
+* LinkedIn: https://www.linkedin.com/in/prasannata-baniya-060b792bb
+
+
