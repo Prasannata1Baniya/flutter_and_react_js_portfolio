@@ -1,5 +1,45 @@
 [
     {
+        "title":"Meeting App",
+        "imageSrc":"src/assets/projects/meeting_app.png",
+        "description":"This is a project made in flutter",
+        "skills":["Flutter","Bloc","Node JS","Express","Socket","MongoDB","https"],
+        "demo":"",
+        "source":"https://github.com/Prasannata1Baniya/Meeting-App"
+    },
+     {
+        "title":"Car Rental App or Website",
+        "imageSrc":"src/assets/projects/car_rental_app.png",
+        "description":"This is a project made in flutter.",
+        "skills":["Flutter","geo-locator","https","cloudinary"],
+        "demo":"",
+        "source":"https://github.com/Prasannata1Baniya/CarRentalApp"
+    },
+    {
+        "title":"Cab Booking App ",
+        "imageSrc":"src/assets/projects/cab_booking_app.png",
+        "description":"This is a project made in flutter.",
+        "skills":["Flutter","geo-locator","https","cloudinary"],
+        "demo":"",
+        "source":"https://github.com/Prasannata1Baniya/Sajilo-Ride"
+    },
+    {
+        "title":"Next.js Project Management",
+        "imageSrc":"src/assets/projects/next_js_project_management.png",
+        "description":"This is a project made in next Js",
+        "skills":["Next JS","TypeScript","Prisma","SupaBase"],
+        "demo":"",
+        "source":"https://github.com/Prasannata1Baniya/next_js_project_management"
+    },
+     {
+        "title":"Real Time Chat App",
+        "imageSrc":"src/assets/projects/flutter_chat_app.png",
+        "description":"This is a project made in flutter using firebase.",
+        "skills":["Flutter","firebase"],
+        "demo":"",
+        "source":"https://github.com/Prasannata1Baniya/flutter_chat_app"
+    },
+    {
         "title":"Weather App Or Website",
         "imageSrc":"src/assets/projects/weather_app.jpg",
         "description":"This is a project made in flutter using Bloc State Management.",
@@ -18,7 +58,7 @@
     {
         "title":"Grocery App",
         "imageSrc":"src/assets/projects/grocery_app.jpg",
-        "description":"This is a project made in flutter using Bloc State Management.",
+        "description":"This is a project made in flutter.",
         "skills":["Flutter","Bloc"],
         "demo":"https://flutter-grocery-app.vercel.app/",
         "source":"https://github.com/Prasannata1Baniya/flutter_grocery_app"
