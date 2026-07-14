@@ -21,26 +21,26 @@ A modern, responsive, and interactive personal portfolio built with **React** an
 
 ### 🏠 Home
 
-![Home](./screenshots/po1.png)
+![Home](./src/assets/screenshots/po1.png)
 
 ### 👤 About
 
-![About](./screenshots/po2.png)
+![About](./src/assets/screenshots/po2.png)
 
 ### 💼 Skills & Experience
 
-![Experience](./screenshots/po3.png)
+![Experience](.src/assets/screenshots/po3.png)
 
 ### 🚀 Projects
 
-![Projects](./screenshots/po4.png)
-![Projects](./screenshots/po5.png)
-![Projects](./screenshots/po6.png)
+![Projects](./src/assets/screenshots/po4.png)
+![Projects](./src/assets/screenshots/po5.png)
+![Projects](./src/assets/screenshots/po6.png)
 
 
 ### 📞 Contact
 
-![Contact](./screenshots/po7.png)
+![Contact](./src/assets/screenshots/po7.png)
 
 ---
 
