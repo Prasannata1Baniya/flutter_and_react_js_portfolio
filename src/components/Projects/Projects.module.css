@@ -1,25 +1,77 @@
-@import '../../vars.css';
+@import "../../vars.css";
 
-.container{
-    margin-top: 76px;
-    color:var(--color-text);
-    margin-left: 10%;
-    margin-right:10%;
+.container {
+  position: relative;
 
+  margin: 90px 10%;
+
+  color: var(--color-text);
 }
-.title{
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 1.75px;
-    text-transform: uppercase;
+
+.title {
+  font-size: 48px;
+
+  font-weight: 800;
+
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+
+  margin-bottom: 50px;
+
+  position: relative;
 }
-.projects{
-    margin-top: 37px;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap:15px;
-    width:100%;
+
+.title::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+
+  bottom: -12px;
+
+  width: 90px;
+
+  height: 5px;
+
+  border-radius: 100px;
+
+  background: linear-gradient(
+    90deg,
+    #3b82f6,
+    #8b5cf6
+  );
+}
+
+.projects {
+  display: grid;
+
+  grid-template-columns:
+      repeat(auto-fit,
+      minmax(340px,1fr));
+
+  gap: 35px;
+}
+
+@media (max-width:768px) {
+
+  .container{
+      margin:70px 20px;
+  }
+
+  .title{
+      font-size:36px;
+      text-align:center;
+  }
+
+  .title::after{
+      left:50%;
+      transform:translateX(-50%);
+  }
+
+  .projects{
+      grid-template-columns:1fr;
+  }
+
 }
