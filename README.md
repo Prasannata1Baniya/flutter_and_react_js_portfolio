@@ -29,7 +29,7 @@ A modern, responsive, and interactive personal portfolio built with **React** an
 
 ### 💼 Skills & Experience
 
-![Experience](.src/assets/screenshots/po3.png)
+![Experience](./src/assets/screenshots/po3.png)
 
 ### 🚀 Projects
 
