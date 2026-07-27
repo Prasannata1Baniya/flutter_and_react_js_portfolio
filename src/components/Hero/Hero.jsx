@@ -10,7 +10,7 @@ const Hero = () => {
       <div className={styles.content}>
 
         <span className={styles.badge}>
-          🚀 Open to Internships & Freelance
+           Open to Internships & Freelance
         </span>
 
         <h1 className={styles.title}>
