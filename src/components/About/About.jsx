@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./About.module.css";
 
-import frontendImg from "../../assets/about/frontend.jpg";
-import backendImg from "../../assets/about/backend.png";
-import uiuxImg from "../../assets/about/UI_UX.jpg";
+import frontendImg from "/assets/about/frontend.jpg";
+import backendImg from "/assets/about/backend.png";
+import uiuxImg from "/assets/about/UI_UX.jpg";
 
 const About = () => {
   return (
