@@ -1,7 +1,7 @@
 [
     {
         "title":"Meeting App",
-        "imageSrc":"src/assets/projects/meeting_app.png",
+        "imageSrc":"/assets/projects/meeting_app.png",
         "description":"This is a project made in flutter",
         "skills":["Flutter","Bloc","Node JS","Express","Socket","MongoDB","https"],
         "demo":"",
@@ -9,7 +9,7 @@
     },
      {
         "title":"Car Rental App or Website",
-        "imageSrc":"src/assets/projects/car_rental_app.png",
+        "imageSrc":"/assets/projects/car_rental_app.png",
         "description":"This is a project made in flutter.",
         "skills":["Flutter","geo-locator","https","cloudinary"],
         "demo":"",
@@ -17,7 +17,7 @@
     },
     {
         "title":"Cab Booking App ",
-        "imageSrc":"src/assets/projects/cab_booking_app.png",
+        "imageSrc":"/assets/projects/cab_booking_app.png",
         "description":"This is a project made in flutter.",
         "skills":["Flutter","geo-locator","https","cloudinary"],
         "demo":"",
@@ -25,7 +25,7 @@
     },
     {
         "title":"Next.js Project Management",
-        "imageSrc":"src/assets/projects/next_js_project_management.png",
+        "imageSrc":"/assets/projects/next_js_project_management.png",
         "description":"This is a project made in next Js",
         "skills":["Next JS","TypeScript","Prisma","SupaBase"],
         "demo":"",
@@ -33,7 +33,7 @@
     },
      {
         "title":"Real Time Chat App",
-        "imageSrc":"src/assets/projects/flutter_chat_app.png",
+        "imageSrc":"/assets/projects/flutter_chat_app.png",
         "description":"This is a project made in flutter using firebase.",
         "skills":["Flutter","firebase"],
         "demo":"",
@@ -41,7 +41,7 @@
     },
     {
         "title":"Weather App Or Website",
-        "imageSrc":"src/assets/projects/weather_app.jpg",
+        "imageSrc":"/assets/projects/weather_app.jpg",
         "description":"This is a project made in flutter using Bloc State Management.",
         "skills":["Flutter","Bloc","geo-locator","https"],
         "demo":"weather-app-one-tawny-50.vercel.app",
@@ -49,7 +49,7 @@
     },
     {
         "title":"E-Learning App",
-        "imageSrc":"src/assets/projects/E-Learning_app.jpg",
+        "imageSrc":"/assets/projects/E-Learning_app.jpg",
         "description":"This is a project made in flutter using Bloc State Management.",
         "skills":["Flutter","Bloc"],
         "demo":"https://www.example.com",
@@ -57,7 +57,7 @@
     },
     {
         "title":"Grocery App",
-        "imageSrc":"src/assets/projects/grocery_app.jpg",
+        "imageSrc":"/assets/projects/grocery_app.jpg",
         "description":"This is a project made in flutter.",
         "skills":["Flutter","Bloc"],
         "demo":"https://flutter-grocery-app.vercel.app/",
@@ -65,7 +65,7 @@
     },
     {
         "title":"Basic Flutter Projects",
-        "imageSrc":"src/assets/projects/basic_projects.jpg",
+        "imageSrc":"/assets/projects/basic_projects.jpg",
         "description":"This is a project made made in FLutter including various games and local Hive Storage. ",
         "skills":["Flutter"],
         "demo":"flutter-projects-iota.vercel.app",
