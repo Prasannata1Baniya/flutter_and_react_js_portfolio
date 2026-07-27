@@ -10,8 +10,8 @@ const Navbar = () => {
         <div className={styles.menu}> 
         <img className={styles.menuBtn} src={
           menuOpen?
-           "/src/assets/navbar/close.png" :
-         "/src/assets/navbar/hamburgerMenu.png"} alt="menu-button" onClick={()=>setMenuOpen(!menuOpen)}/>
+           "/assets/navbar/close.png" :
+         "/assets/navbar/hamburgerMenu.png"} alt="menu-button" onClick={()=>setMenuOpen(!menuOpen)}/>
         <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={()=>setMenuOpen(false)}>
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
