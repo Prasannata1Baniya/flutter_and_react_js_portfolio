@@ -49,7 +49,7 @@
     },
     {
         "title":"E-Learning App",
-        "imageSrc":"/assets/projects/E-Learning_app.jpg",
+        "imageSrc":"/assets/projects/E-learning_app.jpg",
         "description":"This is a project made in flutter using Bloc State Management.",
         "skills":["Flutter","Bloc"],
         "demo":"https://www.example.com",
