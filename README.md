@@ -65,9 +65,10 @@ A modern, responsive, and interactive personal portfolio built with **React** an
 ## 📂 Folder Structure
 
 ```text
+public/
+|── assets/
 src/
 │
-├── assets/
 ├── components/
 │   ├── Hero/
 │   ├── About/
