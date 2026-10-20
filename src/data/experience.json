@@ -1,43 +1,72 @@
 [
-    {
-        "title":"HTML",
-        "imagesrc":"/assets/experience/html.png"
-    },
-    {
-        "title":"CSS",
-        "imagesrc":"/assets/experience/css.png"
-    },
-    {
-        "title":"JavaScript",
-        "imagesrc":"/assets/experience/javaScript.png"
-    },
-    {
-        "title":"React",
-        "imagesrc":"/assets/experience/react.png"
-    },
-    {
-        "title":"Node Js",
-        "imagesrc":"/assets/experience/node-js.png"
-    },
-    {
-        "title":"Flutter",
-        "imagesrc":"/assets/experience/flutter-logo.png"
-    },
-    {
-        "title":"Dart",
-        "imagesrc":"/assets/experience/dart.png"
-    },
-    {
-        "title":"Figma",
-        "imagesrc":"/assets/experience/figma.png"
-    },
-    {
-        "title":"Firebase",
-        "imagesrc":"/assets/experience/firebase.png"
-    },
-    {
-        "title":"Bloc SMP",
-        "imagesrc":"/assets/experience/bloc.png"
-    }
-   
+  {
+    "title": "Flutter",
+    "imagesrc": "/assets/experience/flutter-logo.png",
+    "category": "mobile",
+    "level": "Expert",
+    "description": "Production cross-platform mobile apps, custom UI components, responsive layouts & BLoC state architecture."
+  },
+  {
+    "title": "Dart",
+    "imagesrc": "/assets/experience/dart.png",
+    "category": "mobile",
+    "level": "Expert",
+    "description": "Strong OOP fundamentals, asynchronous stream handling, reactive programming and sound null safety."
+  },
+  {
+    "title": "React.js",
+    "imagesrc": "/assets/experience/react.png",
+    "category": "frontend",
+    "level": "Advanced",
+    "description": "Modern React 19 web applications, reusable UI components, custom hooks, and state management."
+  },
+  {
+    "title": "JavaScript (ES6+)",
+    "imagesrc": "/assets/experience/javaScript.png",
+    "category": "frontend",
+    "level": "Advanced",
+    "description": "Modern ES6+ syntax, Promises, Async/Await, DOM manipulation, modular architectures, and API integrations."
+  },
+  {
+    "title": "Node.js & Express",
+    "imagesrc": "/assets/experience/node-js.png",
+    "category": "backend",
+    "level": "Proficient",
+    "description": "Scalable RESTful APIs, HTTP controllers, middleware authentication, WebSockets, and database connectivity."
+  },
+  {
+    "title": "HTML5",
+    "imagesrc": "/assets/experience/html.png",
+    "category": "frontend",
+    "level": "Expert",
+    "description": "Semantic markup, web accessibility (a11y) standards, clean DOM hierarchy, and SEO optimization."
+  },
+  {
+    "title": "CSS3 & Modern Styling",
+    "imagesrc": "/assets/experience/css.png",
+    "category": "frontend",
+    "level": "Advanced",
+    "description": "Responsive Flexbox/Grid layouts, CSS Modules, glassmorphism UI, keyframe animations, and custom design tokens."
+  },
+  {
+    "title": "Firebase",
+    "imagesrc": "/assets/experience/firebase.png",
+    "category": "backend",
+    "level": "Proficient",
+    "description": "Firebase Auth, Firestore real-time database, Cloud Storage, Push Notifications, and serverless backends."
+  },
+  {
+    "title": "BLoC State Management",
+    "imagesrc": "/assets/experience/bloc.png",
+    "category": "mobile",
+    "level": "Expert",
+    "description": "Scalable event-driven state architecture separating business logic from UI layer for Flutter applications."
+  },
+  {
+    "title": "Figma",
+    "imagesrc": "/assets/experience/figma.png",
+    "category": "tools",
+    "level": "Proficient",
+    "description": "High-fidelity UI/UX design, interactive wireframes, component design systems, and rapid prototyping."
+  }
 ]

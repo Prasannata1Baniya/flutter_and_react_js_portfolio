@@ -1,16 +1,47 @@
-:root{
-    --color-text:#fff;
-    --color-primary:#576cbc;
-    --color-secondary:#19376d;
-    --color-dark:#0b2447;
-   /* --color-bg:#000000;*/
-    --color-bg:#04152d;
-    --font-robot:"Roboto";
+:root {
+  /* Color Palette */
+  --color-text: #f8fafc;
+  --color-text-muted: #94a3b8;
+  --color-text-dim: #64748b;
+
+  --color-bg: #080c14;
+  --color-bg-alt: #0f172a;
+
+  --color-primary: #6366f1;
+  --color-primary-hover: #4f46e5;
+  --color-secondary: #8b5cf6;
+  --color-accent: #06b6d4;
+  --color-success: #10b981;
+
+  --gradient-primary: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+  --gradient-accent: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+  --gradient-card: linear-gradient(180deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%);
+  --gradient-border: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.03) 100%);
+
+  --color-card-bg: rgba(15, 23, 42, 0.65);
+  --color-card-border: rgba(255, 255, 255, 0.08);
+  --color-card-hover-border: rgba(99, 102, 241, 0.4);
+
+  /* Fonts */
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Shadows & Glows */
+  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 35px rgba(99, 102, 241, 0.25);
+  --shadow-glow-cyan: 0 0 35px rgba(6, 182, 212, 0.25);
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-/* --color-primary:#0000008a;
-    --color-secondary:rgba(0, 0, 0, 0.842);
-    --color-dark:rgba(0, 0, 0, 0.829);
-    --color-bg:black;
-    --font-robot:"Roboto";
-    --color-bg:#04152d;
-    */

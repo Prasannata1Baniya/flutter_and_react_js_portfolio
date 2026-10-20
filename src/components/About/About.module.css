@@ -1,129 +1,247 @@
 @import "../../vars.css";
 
+.section {
+  padding: 100px 0;
+  position: relative;
+}
+
 .container {
-  margin: 90px 10%;
-  color: var(--color-text);
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.header {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 60px;
+}
+
+.sectionPill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(99, 102, 241, 0.12);
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  color: var(--color-primary);
+  padding: 6px 16px;
+  border-radius: var(--radius-full);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
 }
 
 .title {
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 800;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  position: relative;
-  margin-bottom: 20px;
+  color: var(--color-text);
+  margin-bottom: 16px;
+  letter-spacing: -1px;
 }
 
-.title::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-
-  width: 90px;
-  height: 5px;
-
-  border-radius: 50px;
-
-  background: linear-gradient(
-    90deg,
-    #3b82f6,
-    #8b5cf6
-  );
+.titleAccent {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .subtitle {
-  max-width: 750px;
-
-  font-size: 18px;
-
-  line-height: 1.8;
-
-  color: rgba(255, 255, 255, .75);
-
-  margin-bottom: 55px;
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--color-text-muted);
 }
 
-.cards {
+.cardsGrid {
   display: grid;
-
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 32px;
+  margin-bottom: 50px;
 }
 
 .card {
-  padding: 35px;
-
-  border-radius: 24px;
-
-  background: rgba(255,255,255,.05);
-
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
-
-  border: 1px solid rgba(255,255,255,.08);
-
-  transition: .35s;
-
-  text-align: center;
+  background: var(--color-card-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--color-card-border);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-normal);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
 }
 
 .card:hover {
-  transform: translateY(-12px);
-
-  border-color: rgba(59,130,246,.45);
-
-  box-shadow: 0 20px 40px rgba(0,0,0,.35);
+  transform: translateY(-8px);
+  border-color: var(--color-card-hover-border);
+  box-shadow: var(--shadow-md);
 }
 
-.image {
-  width: 100px;
-  height: 100px;
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
 
+.iconContainer {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-md);
+  background: rgba(99, 102, 241, 0.15);
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  color: #818cf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconPurple {
+  background: rgba(168, 85, 247, 0.15);
+  border-color: rgba(168, 85, 247, 0.3);
+  color: #c084fc;
+}
+
+.iconCyan {
+  background: rgba(6, 182, 212, 0.15);
+  border-color: rgba(6, 182, 212, 0.3);
+  color: #38bdf8;
+}
+
+.cardTag {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-dim);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 6px 12px;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 180px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-bottom: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cardImg {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-
-  border-radius: 50%;
-
-  margin-bottom: 25px;
-
-  border: 4px solid rgba(59,130,246,.4);
+  transition: transform 0.5s ease;
 }
 
-.card h3 {
-  font-size: 24px;
-
-  margin-bottom: 15px;
-
-  color: white;
+.card:hover .cardImg {
+  transform: scale(1.06);
 }
 
-.card p {
-  font-size: 16px;
-
-  line-height: 1.8;
-
-  color: rgba(255,255,255,.75);
+.cardTitle {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 12px;
 }
 
-@media (max-width:768px){
-
-.container{
-    margin:70px 20px;
+.cardDesc {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+  margin-bottom: 24px;
+  flex-grow: 1;
 }
 
-.title{
-    text-align:center;
-    font-size:38px;
+.cardDesc strong {
+  color: var(--color-text);
 }
 
-.title::after{
-    left:50%;
-    transform:translateX(-50%);
+.techStackPills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
-.subtitle{
-    text-align:center;
+.techStackPills span {
+  font-size: 12px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--color-text-muted);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
 }
 
+.highlightsBox {
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.5) 0%, rgba(15, 23, 42, 0.7) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  backdrop-filter: blur(12px);
+}
+
+.highlightsHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.cpuIcon {
+  color: var(--color-accent);
+}
+
+.highlightsHeader h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.highlightsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.highlightItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 12px 18px;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.checkIcon {
+  color: var(--color-success);
+  flex-shrink: 0;
+}
+
+.highlightItem span {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 70px 0;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .cardsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 24px;
+  }
 }

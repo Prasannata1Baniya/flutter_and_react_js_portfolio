@@ -1,83 +1,123 @@
 [
-    {
-        "title":"Meeting App",
-        "imageSrc":"/assets/projects/meeting_app.png",
-        "description":"This is a project made in flutter",
-        "skills":["Flutter","Bloc","Node JS","Express","Socket","MongoDB","https"],
-        "demo":"https://github.com/Prasannata1Baniya/meeting_app",
-        "source":"https://github.com/Prasannata1Baniya/meeting_app"
-    },
-     {
-        "title":"Car Rental App or Website",
-        "imageSrc":"/assets/projects/car_rental_app.png",
-        "description":"This is a project made in flutter.",
-        "skills":["Flutter","geo-locator","https","cloudinary"],
-        "demo":"https://github.com/Prasannata1Baniya/CarRentalApp",
-        "source":"https://github.com/Prasannata1Baniya/CarRentalApp"
-    },
-    {
-        "title":"Cab Booking App ",
-        "imageSrc":"/assets/projects/cab_booking_app.png",
-        "description":"This is a project made in flutter.",
-        "skills":["Flutter","geo-locator","https","cloudinary"],
-        "demo":"https://github.com/Prasannata1Baniya/Sajilo-Ride",
-        "source":"https://github.com/Prasannata1Baniya/Sajilo-Ride"
-    },
-    {
-        "title":"Next.js Project Management",
-        "imageSrc":"/assets/projects/next_js_project_management.png",
-        "description":"This is a project made in next Js",
-        "skills":["Next JS","TypeScript","Prisma","SupaBase"],
-        "demo":"https://github.com/Prasannata1Baniya/next_js_project_management",
-        "source":"https://github.com/Prasannata1Baniya/next_js_project_management"
-    },
-     {
-        "title":"Real Time Chat App",
-        "imageSrc":"/assets/projects/flutter_chat_app.png",
-        "description":"This is a project made in flutter using firebase.",
-        "skills":["Flutter","firebase"],
-        "demo":"https://github.com/Prasannata1Baniya/flutter_chat_app",
-        "source":"https://github.com/Prasannata1Baniya/flutter_chat_app"
-    },
-       {
-        "title":"Grocery App",
-        "imageSrc":"/assets/projects/grocery_app.jpg",
-        "description":"This is a project made in flutter.",
-        "skills":["Flutter","Bloc"],
-        "demo":"https://flutter-grocery-app.vercel.app/",
-        "source":"https://github.com/Prasannata1Baniya/flutter_grocery_app"
-    },
-    {
-        "title":"Food delivery App",
-        "imageSrc":"/assets/projects/food_delivery_app.png",
-        "description":"This is a project made in flutter.",
-        "skills":["Flutter","Bloc"],
-        "demo":"https://github.com/Prasannata1Baniya/food_delivery_app",
-        "source":"https://github.com/Prasannata1Baniya/food_delivery_app"
-    },
-    {
-        "title":"Weather App Or Website",
-        "imageSrc":"/assets/projects/weather_app.jpg",
-        "description":"This is a project made in flutter using Bloc State Management.",
-        "skills":["Flutter","Bloc","geo-locator","https"],
-        "demo":"weather-app-one-tawny-50.vercel.app",
-        "source":"https://github.com/Prasannata1Baniya/Weather-App"
-    },
-    {
-        "title":"E-Learning App",
-        "imageSrc":"/assets/projects/E-learning_app.jpg",
-        "description":"This is a project made in flutter using Bloc State Management.",
-        "skills":["Flutter","Bloc"],
-        "demo":"https://www.example.com",
-        "source":"https://github.com"
-    },
-    {
-        "title":"Basic Flutter Projects",
-        "imageSrc":"/assets/projects/basic_projects.jpg",
-        "description":"This is a project made made in FLutter including various games and local Hive Storage. ",
-        "skills":["Flutter"],
-        "demo":"flutter-projects-iota.vercel.app",
-        "source":"https://github.com/Prasannata1Baniya/flutter_projects"
-    }
-
+  {
+    "id": "meeting-app",
+    "title": "Real-Time Video Meeting App",
+    "imageSrc": "/assets/projects/meeting_app.png",
+    "description": "Cross-platform video conference application built with Flutter & WebRTC, enabling instant audio/video rooms, screen share, dynamic chat, and active participant management.",
+    "category": "mobile",
+    "featured": true,
+    "skills": ["Flutter", "BLoC", "Node.js", "Express", "Socket.io", "MongoDB"],
+    "demo": "https://github.com/Prasannata1Baniya/meeting_app",
+    "source": "https://github.com/Prasannata1Baniya/meeting_app"
+  },
+  {
+    "id": "coffee-website",
+    "title": "Artisanal Coffee E-Commerce",
+    "imageSrc": "/assets/projects/coffeee_website.png",
+    "description": "High-conversion web application for artisanal coffee orders featuring smooth page transitions, product search, custom roast selector, and interactive shopping cart.",
+    "category": "web",
+    "featured": true,
+    "skills": ["Next.js", "React", "Node.js", "Express", "MongoDB", "CSS Modules"],
+    "demo": "https://next-js-coffee-website-snowy.vercel.app/",
+    "source": "https://next-js-coffee-website-snowy.vercel.app/"
+  },
+  {
+    "id": "nextjs-pm",
+    "title": "Next.js Project Management Platform",
+    "imageSrc": "/assets/projects/next_js_project_management.png",
+    "description": "Full-stack project collaboration suite featuring Kanban boards, task assignments, role-based security, relational database persistence via Prisma, and Supabase auth.",
+    "category": "fullstack",
+    "featured": true,
+    "skills": ["Next.js", "TypeScript", "Prisma", "Supabase", "Tailwind CSS"],
+    "demo": "https://github.com/Prasannata1Baniya/next_js_project_management",
+    "source": "https://github.com/Prasannata1Baniya/next_js_project_management"
+  },
+  {
+    "id": "car-rental",
+    "title": "Vehicle Rental & Inspection Platform",
+    "imageSrc": "/assets/projects/car_rental_app.png",
+    "description": "Mobile vehicle booking platform with real-time GPS location tracking, vehicle condition photo uploads via Cloudinary, and automated reservation management.",
+    "category": "mobile",
+    "featured": true,
+    "skills": ["Flutter", "Geolocator", "Cloudinary", "REST API", "Dart"],
+    "demo": "https://github.com/Prasannata1Baniya/CarRentalApp",
+    "source": "https://github.com/Prasannata1Baniya/CarRentalApp"
+  },
+  {
+    "id": "cab-booking",
+    "title": "Sajilo Ride - Cab Booking App",
+    "imageSrc": "/assets/projects/cab_booking_app.png",
+    "description": "On-demand ride-hailing app with live driver GPS tracking, route optimization using Google Maps API, fare estimation algorithm, and ride status updates.",
+    "category": "mobile",
+    "featured": false,
+    "skills": ["Flutter", "Google Maps", "Geolocator", "REST API"],
+    "demo": "https://github.com/Prasannata1Baniya/Sajilo-Ride",
+    "source": "https://github.com/Prasannata1Baniya/Sajilo-Ride"
+  },
+  {
+    "id": "chat-app",
+    "title": "Real-Time Chat & Media App",
+    "imageSrc": "/assets/projects/flutter_chat_app.png",
+    "description": "Instant messaging mobile application powered by Firebase, featuring low-latency message streaming, user online status, cloud media attachments, and auth security.",
+    "category": "mobile",
+    "featured": false,
+    "skills": ["Flutter", "Firebase Auth", "Firestore", "Firebase Storage"],
+    "demo": "https://github.com/Prasannata1Baniya/flutter_chat_app",
+    "source": "https://github.com/Prasannata1Baniya/flutter_chat_app"
+  },
+  {
+    "id": "grocery-app",
+    "title": "Fresh Grocery E-Commerce",
+    "imageSrc": "/assets/projects/grocery_app.jpg",
+    "description": "Responsive mobile & web store for organic grocery shopping with category filtering, real-time cart calculations, responsive UI grid, and seamless checkout flow.",
+    "category": "mobile",
+    "featured": false,
+    "skills": ["Flutter", "BLoC", "REST API", "State Management"],
+    "demo": "https://flutter-grocery-app.vercel.app/",
+    "source": "https://github.com/Prasannata1Baniya/flutter_grocery_app"
+  },
+  {
+    "id": "food-delivery",
+    "title": "On-Demand Food Delivery",
+    "imageSrc": "/assets/projects/food_delivery_app.png",
+    "description": "Intuitive mobile food ordering platform with restaurant menu customization, search filters, interactive cart state, and order tracking timeline.",
+    "category": "mobile",
+    "featured": false,
+    "skills": ["Flutter", "BLoC", "Clean Architecture", "REST API"],
+    "demo": "https://github.com/Prasannata1Baniya/food_delivery_app",
+    "source": "https://github.com/Prasannata1Baniya/food_delivery_app"
+  },
+  {
+    "id": "weather-app",
+    "title": "Live Weather & Forecast App",
+    "imageSrc": "/assets/projects/weather_app.jpg",
+    "description": "Dynamic weather forecast app rendering hourly temperature trends, 7-day meteorological predictions, GPS auto-location detection, and dynamic weather particle backdrops.",
+    "category": "mobile",
+    "featured": false,
+    "skills": ["Flutter", "BLoC", "OpenWeather API", "Geolocator"],
+    "demo": "https://weather-app-one-tawny-50.vercel.app",
+    "source": "https://github.com/Prasannata1Baniya/Weather-App"
+  },
+  {
+    "id": "elearning-app",
+    "title": "Interactive E-Learning Mobile App",
+    "imageSrc": "/assets/projects/E-learning_app.jpg",
+    "description": "Mobile educational platform featuring video course streaming, downloadable study materials, interactive quizzes, student progress tracking, and certificate generation.",
+    "category": "mobile",
+    "featured": false,
+    "skills": ["Flutter", "BLoC", "Video Player", "UI/UX Design"],
+    "demo": "https://github.com/Prasannata1Baniya",
+    "source": "https://github.com/Prasannata1Baniya"
+  },
+  {
+    "id": "flutter-suite",
+    "title": "Flutter Apps & Games Suite",
+    "imageSrc": "/assets/projects/basic_projects.jpg",
+    "description": "A curated collection of mobile applications and games demonstrating high-performance local storage with Hive DB, reactive canvas animations, and clean architecture.",
+    "category": "mobile",
+    "featured": false,
+    "skills": ["Flutter", "Hive DB", "Dart", "Canvas Animation"],
+    "demo": "https://flutter-projects-iota.vercel.app",
+    "source": "https://github.com/Prasannata1Baniya/flutter_projects"
+  }
 ]
