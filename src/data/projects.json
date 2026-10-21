@@ -11,6 +11,17 @@
     "source": "https://github.com/Prasannata1Baniya/meeting_app"
   },
   {
+    "id": "ecommerce-app",
+    "title": "E-Commerce app",
+    "imageSrc": "/assets/projects/e-commerce_app.jpeg",
+    "description": "Flutter Ecommerce App built with python django",
+    "category": "mobile",
+    "featured": true,
+    "skills": ["flutter, django, python"],
+    "demo": "https://github.com/Prasannata1Baniya/flutter_ecommerce_app",
+    "source": "https://github.com/Prasannata1Baniya/flutter_ecommerce_app"
+  },
+  {
     "id": "coffee-website",
     "title": "Artisanal Coffee E-Commerce",
     "imageSrc": "/assets/projects/coffeee_website.png",
@@ -22,7 +33,7 @@
     "source": "https://next-js-coffee-website-snowy.vercel.app/"
   },
   {
-    "id": "nextjs-pm",
+    "id": "next.js-pm",
     "title": "Next.js Project Management Platform",
     "imageSrc": "/assets/projects/next_js_project_management.png",
     "description": "Full-stack project collaboration suite featuring Kanban boards, task assignments, role-based security, relational database persistence via Prisma, and Supabase auth.",
@@ -59,7 +70,7 @@
     "title": "Real-Time Chat & Media App",
     "imageSrc": "/assets/projects/flutter_chat_app.png",
     "description": "Instant messaging mobile application powered by Firebase, featuring low-latency message streaming, user online status, cloud media attachments, and auth security.",
-    "category": "mobile",
+    "category": "mobile, web",
     "featured": false,
     "skills": ["Flutter", "Firebase Auth", "Firestore", "Firebase Storage"],
     "demo": "https://github.com/Prasannata1Baniya/flutter_chat_app",
