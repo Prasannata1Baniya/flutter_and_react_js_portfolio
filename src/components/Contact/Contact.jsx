@@ -14,10 +14,10 @@ const Contact = () => {
     message: '',
   });
 
-  // Direct contact configuration
+
   const emailAddress = 'bprasannata55@gmail.com';
 
-  // Replace 'YOUR_FORM_KEY_HERE' with your new FormSubmit key when you receive it
+
   const formKey = 'cfc88934a9180e091a5cc76026a86621';
 
   const handleCopyEmail = () => {
@@ -33,7 +33,7 @@ const Contact = () => {
     setLoading(true);
 
     try {
-      // Use formKey if provided, otherwise fallback to emailAddress
+
       const targetEndpoint =
         formKey && formKey !== 'cfc88934a9180e091a5cc76026a86621' ? formKey : emailAddress;
 
