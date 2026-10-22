@@ -261,6 +261,19 @@
   filter: brightness(1.1);
 }
 
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .successBanner {
   text-align: center;
   padding: 40px 20px;

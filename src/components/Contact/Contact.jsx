@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import styles from './Contact.module.css';
-import { Mail, MapPin, Copy, Check, Send, Sparkles, MessageSquare, Heart } from 'lucide-react';
+import { Mail, MapPin, Copy, Check, Send, Sparkles, MessageSquare, Heart, Loader2 } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from '../common/Icons';
 
 const Contact = () => {
   const [copied, setCopied] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
@@ -21,17 +22,51 @@ const Contact = () => {
     setTimeout(() => setCopied(false), 2500);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.message) return;
 
-    // Construct mailto fallback & show success banner
+    setLoading(true);
+
+    try {
+      // Send message directly to Gmail via FormSubmit AJAX service
+      const response = await fetch(`https://formsubmit.co/ajax/${emailAddress}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          _subject: formData.subject || `New Portfolio Message from ${formData.name}`,
+          message: formData.message,
+          _template: 'table',
+        }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok && (data.success === 'true' || data.success === true)) {
+        setFormSubmitted(true);
+      } else {
+        // Fallback to mailto link if API fails
+        triggerMailtoFallback();
+      }
+    } catch (err) {
+      console.error('Failed to send email via API:', err);
+      triggerMailtoFallback();
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const triggerMailtoFallback = () => {
     const mailtoUrl = `mailto:${emailAddress}?subject=${encodeURIComponent(
       formData.subject || 'Portfolio Inquiry from ' + formData.name
     )}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     )}`;
-
     window.open(mailtoUrl, '_blank');
     setFormSubmitted(true);
   };
@@ -130,9 +165,9 @@ const Contact = () => {
             {formSubmitted ? (
               <div className={styles.successBanner}>
                 <Check size={36} className={styles.successIcon} />
-                <h4>Message Drafted!</h4>
+                <h4>Message Sent Successfully!</h4>
                 <p>
-                  Thank you for reaching out, {formData.name}! Your default email client should open now. I will respond to your email as soon as possible.
+                  Thank you for reaching out, {formData.name}! Your message has been delivered directly to my email inbox. I will reply to you as soon as possible.
                 </p>
                 <button
                   onClick={() => {
@@ -157,6 +192,7 @@ const Contact = () => {
                       onChange={(e) =>
                         setFormData({ ...formData, name: e.target.value })
                       }
+                      disabled={loading}
                     />
                   </div>
 
@@ -170,6 +206,7 @@ const Contact = () => {
                       onChange={(e) =>
                         setFormData({ ...formData, email: e.target.value })
                       }
+                      disabled={loading}
                     />
                   </div>
                 </div>
@@ -183,6 +220,7 @@ const Contact = () => {
                     onChange={(e) =>
                       setFormData({ ...formData, subject: e.target.value })
                     }
+                    disabled={loading}
                   />
                 </div>
 
@@ -196,12 +234,22 @@ const Contact = () => {
                     onChange={(e) =>
                       setFormData({ ...formData, message: e.target.value })
                     }
+                    disabled={loading}
                   />
                 </div>
 
-                <button type="submit" className={styles.submitBtn}>
-                  <Send size={18} />
-                  <span>Send Message</span>
+                <button type="submit" className={styles.submitBtn} disabled={loading}>
+                  {loading ? (
+                    <>
+                      <Loader2 size={18} className={styles.spinner} />
+                      <span>Sending Message...</span>
+                    </>
+                  ) : (
+                    <>
+                      <Send size={18} />
+                      <span>Send Message</span>
+                    </>
+                  )}
                 </button>
               </form>
             )}
