@@ -14,8 +14,8 @@ const Contact = () => {
     message: '',
   });
 
-  //const emailAddress = 'bprasannata55@gmail.com';
-  const emailAddress = import.meta.env.VITE_CONTACT_EMAIL || bprasannata55@gmail.com;
+  // Direct email address configuration
+  const emailAddress = 'bprasannata55@gmail.com';
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(emailAddress);
@@ -30,7 +30,7 @@ const Contact = () => {
     setLoading(true);
 
     try {
-      // Send message directly to Gmail via FormSubmit AJAX service
+      // Send message directly to email via FormSubmit AJAX service
       const response = await fetch(`https://formsubmit.co/ajax/${emailAddress}`, {
         method: 'POST',
         headers: {
@@ -51,7 +51,6 @@ const Contact = () => {
       if (response.ok && (data.success === 'true' || data.success === true)) {
         setFormSubmitted(true);
       } else {
-        // Fallback to mailto link if API fails
         triggerMailtoFallback();
       }
     } catch (err) {
