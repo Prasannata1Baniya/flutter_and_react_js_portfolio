@@ -14,8 +14,11 @@ const Contact = () => {
     message: '',
   });
 
-  // Direct email address configuration
+  // Direct contact configuration
   const emailAddress = 'bprasannata55@gmail.com';
+
+  // Replace 'YOUR_FORM_KEY_HERE' with your new FormSubmit key when you receive it
+  const formKey = 'cfc88934a9180e091a5cc76026a86621';
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(emailAddress);
@@ -30,8 +33,11 @@ const Contact = () => {
     setLoading(true);
 
     try {
-      // Send message directly to email via FormSubmit AJAX service
-      const response = await fetch(`https://formsubmit.co/ajax/${emailAddress}`, {
+      // Use formKey if provided, otherwise fallback to emailAddress
+      const targetEndpoint =
+        formKey && formKey !== 'cfc88934a9180e091a5cc76026a86621' ? formKey : emailAddress;
+
+      const response = await fetch(`https://formsubmit.co/ajax/${targetEndpoint}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
