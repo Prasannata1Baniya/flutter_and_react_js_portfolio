@@ -15,7 +15,7 @@ const Contact = () => {
   });
 
   //const emailAddress = 'bprasannata55@gmail.com';
-  const emailAddress = import.meta.env.VITE_CONTACT_EMAIL ;
+  const emailAddress = import.meta.env.VITE_CONTACT_EMAIL || bprasannata55@gmail.com;
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(emailAddress);
