@@ -14,7 +14,7 @@
     "id": "ecommerce-app",
     "title": "E-Commerce app",
     "imageSrc": "/assets/projects/e-commerce_app.jpeg",
-    "description": "Flutter Ecommerce App built with python django",
+    "description": "A full-featured e-commerce mobile application built with Flutter and Dart designed to deliver a seamless shopping experience. Key features include product catalog browsing, detailed item views, a dynamic shopping cart management system, and a streamlined checkout workflow, all backed by a clean and responsive UI.",
     "category": "mobile",
     "featured": true,
     "skills": ["flutter, django, python"],
