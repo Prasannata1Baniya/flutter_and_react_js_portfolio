@@ -79,7 +79,7 @@
   {
     "id": "grocery-app",
     "title": "Fresh Grocery E-Commerce",
-    "imageSrc": "/assets/projects/grocery_app.jpg",
+    "imageSrc": "/assets/projects/grocery_app.png",
     "description": "Responsive mobile & web store for organic grocery shopping with category filtering, real-time cart calculations, responsive UI grid, and seamless checkout flow.",
     "category": "mobile",
     "featured": false,
@@ -110,9 +110,9 @@
     "source": "https://github.com/Prasannata1Baniya/Weather-App"
   },
   {
-    "id": "elearning-app",
+    "id": "e-learning-app",
     "title": "Interactive E-Learning Mobile App",
-    "imageSrc": "/assets/projects/E-learning_app.jpg",
+    "imageSrc": "/assets/projects/e-learning_app.png",
     "description": "Mobile educational platform featuring video course streaming, downloadable study materials, interactive quizzes, student progress tracking, and certificate generation.",
     "category": "mobile",
     "featured": false,
@@ -123,7 +123,7 @@
   {
     "id": "flutter-suite",
     "title": "Flutter Apps & Games Suite",
-    "imageSrc": "/assets/projects/basic_projects.jpg",
+    "imageSrc": "/assets/projects/flutter_basic_projects.png",
     "description": "A curated collection of mobile applications and games demonstrating high-performance local storage with Hive DB, reactive canvas animations, and clean architecture.",
     "category": "mobile",
     "featured": false,
